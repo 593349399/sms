@@ -12,6 +12,7 @@ class Random
      */
     public static function alnum($len = 6)
     {
+        
         return self::build('alnum', $len);
     }
 
