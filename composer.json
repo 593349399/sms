@@ -25,5 +25,5 @@
             }
         }
     },
-    "minimum-stability": "master"
+    "minimum-stability": "dev"
 }
