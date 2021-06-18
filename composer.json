@@ -1,6 +1,6 @@
 {
     "name": "gd_peter/sms",
-    "description": "thinkphp 短信发送",
+    "description": "tp6 短信发送",
     "type": "library",
     "require": {
         "php": "^7.0",
