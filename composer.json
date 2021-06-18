@@ -1,0 +1,29 @@
+{
+    "name": "peter/sms",
+    "description": "thinkphp 短信发送",
+    "type": "library",
+    "require": {
+        "php": "^7.0",
+        "topthink/framework": "^6.0.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "peter",
+            "email": "youngpeter@foxmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "PeterSms\\": "src/"
+        }
+    },
+    "extra": {
+        "think": {
+            "config": {
+                "petersms": "src/config/config.php"
+            }
+        }
+    },
+    "minimum-stability": "dev"
+}

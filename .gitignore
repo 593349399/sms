@@ -1,0 +1,7 @@
+/vendor
+/index.php
+/.idea
+/config
+/route
+/runtime
+/composer.lock
