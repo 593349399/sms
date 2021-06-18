@@ -1,5 +1,5 @@
 {
-    "name": "peter/sms",
+    "name": "gd_peter/sms",
     "description": "thinkphp 短信发送",
     "type": "library",
     "require": {
@@ -9,7 +9,7 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "593349399",
+            "name": "peter",
             "email": "youngpeter@foxmail.com"
         }
     ],
