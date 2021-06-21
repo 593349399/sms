@@ -2,6 +2,7 @@
 
 namespace PeterSms\cache;
 
+use think\facade\Cache as TpCache;
 class Cache
 {
     /**
@@ -33,7 +34,7 @@ class Cache
         $val = $verify_code;
         $exp = $expire ?: 1800;
 
-        $res = \think\facade\Cache::set($key, $val, $exp);
+        $res = TpCache::set($key, $val, $exp);
 
         return $res;
     }
@@ -48,7 +49,7 @@ class Cache
     public static function get($verify_id = '')
     {
         $key = self::key($verify_id);
-        $res = Cache::get($key);
+        $res = TpCache::get($key);
 
         return $res;
     }
@@ -63,7 +64,7 @@ class Cache
     public static function del($verify_id = '')
     {
         $key = self::key($verify_id);
-        $res = Cache::delete($key);
+        $res = TpCache::delete($key);
 
         return $res;
     }

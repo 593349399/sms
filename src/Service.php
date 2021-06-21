@@ -58,8 +58,6 @@ class Service
             $this->cache::del($verify['key']);
             throw $e;
         }
-
-        return true;
     }
 
     /**
